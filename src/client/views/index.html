@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My News Eval</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>News Article Evaluator</h1>
+      <p>
+        Making sense of what we read has never been more difficult. Paste the
+        url of an article (any web page, actually), to generate a report on the
+        concepts it contains and its sentiments towards them.
+      </p>
+      <section>
+        <form class="" onsubmit="return Client.handleSubmit(event)">
+          <input
+            id="url"
+            type="text"
+            name="input"
+            value=""
+            placeholder="Article URL"
+          />
+          <input
+            type="submit"
+            name=""
+            value="submit"
+            onclick="return Client.handleSubmit(event)"
+            onsubmit="return Client.handleSubmit(event)"
+          />
+        </form>
+      </section>
+
+      <section>
+        <h2>Sentiment analysis results</h2>
+        <ul>
+          <li id="url"></li>
+          <li id="sentiment-score"></li>
+          <li id="agreement"></li>
+          <li id="confidence"></li>
+          <li id="irony"></li>
+          <li id="subjectivity"></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
