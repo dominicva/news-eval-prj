@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$h1-font-size: 2.5rem;
+$p-font-size: 1.25rem;
+
+h1 {
+  color: tomato;
+  font-size: $h1-font-size;
+  font-family: 'Roboto Mono', monospace;}
+
+p, li {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2rem;
+  font-size: $p-font-size;
+}
+
+p.explainer {
+  font-size: 1rem;
+}

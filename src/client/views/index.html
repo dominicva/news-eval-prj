@@ -23,9 +23,10 @@
             placeholder="Article URL"
           />
           <input
+            class="btn"
             type="submit"
             name=""
-            value="submit"
+            value="Analyse article"
             onclick="return Client.handleSubmit(event)"
             onsubmit="return Client.handleSubmit(event)"
           />
@@ -42,6 +43,17 @@
           <li id="irony"></li>
           <li id="subjectivity"></li>
         </ul>
+        <div class="explainer-container">
+          <h4>Sentiment score explained</h4>
+          <p class="explainer">
+            P+: strong positive <br />
+            P: positive <br />
+            NEU: neutral <br />
+            N: negative <br />
+            N+: strong negative <br />
+            NONE: without sentiment
+          </p>
+        </div>
       </section>
     </main>
   </body>

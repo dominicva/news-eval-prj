@@ -1,11 +1,8 @@
+// entry file for webpack to build dependency tree
 import { handleSubmit } from './js/formHandler';
+import { is_url } from './js/urlValidator';
 
-import './styles/resets.scss';
-import './styles/base.scss';
-import './styles/footer.scss';
-import './styles/form.scss';
-import './styles/header.scss';
+import './styles/main.scss';
+import './styles/typography.scss';
 
-// alert("I EXIST")
-
-export { handleSubmit };
+export { handleSubmit, is_url };

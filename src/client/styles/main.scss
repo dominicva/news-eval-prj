@@ -1,0 +1,76 @@
+$app-max-width: 500px;
+
+* {
+  box-sizing: border-box;
+  // border: red 1px solid;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+  // min-width: 320px;
+}
+
+h1 {
+  width: 100%;
+  max-width: $app-max-width;
+  margin: 2rem auto;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+p {
+  width: 100%;
+  max-width: $app-max-width;
+  margin: 2rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: $app-max-width;
+  margin: auto;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+
+.btn {
+  border-radius: 2rem;
+  border: 1px solid lightgrey;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: tomato;
+  color: white;
+  outline: 0;
+}
+
+section {
+  width: 100%;
+  max-width: $app-max-width;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+.explainer-container {
+  margin-top: 4rem;
+}
+
+.explainer {
+  margin-top: 0.5rem;
+}
